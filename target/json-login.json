@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-20T11:47:29.014Z",
+        "line": 2,
+        "name": "Log-in with valid username and password",
+        "description": "",
+        "id": "myaccount-login-feature;log-in-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1693243600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open the browser",
+            "match": {
+              "location": "stepdefinations.MyAccountLoginStepDefinations.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2212689500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the URL \"http://practice.automationtesting.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://practice.automationtesting.in/",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinations.MyAccountLoginStepDefinations.enter_the_URL(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1819402500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on My Account Menu",
+            "match": {
+              "location": "stepdefinations.MyAccountLoginStepDefinations.click_on_My_Account_Menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319840400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter registered username and password",
+            "match": {
+              "location": "stepdefinations.MyAccountLoginStepDefinations.enter_registered_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1613987300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login button",
+            "match": {
+              "location": "stepdefinations.MyAccountLoginStepDefinations.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36872900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User must successfully login to the web page",
+            "match": {
+              "location": "stepdefinations.MyAccountLoginStepDefinations.user_must_successfully_login_to_the_web_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MyAccount-Login Feature",
+    "description": "",
+    "id": "myaccount-login-feature",
+    "keyword": "Feature",
+    "uri": "file:Features/MyAccount-Login.feature",
+    "tags": []
+  }
+]
